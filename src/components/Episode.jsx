@@ -8,7 +8,7 @@ const Episode = () => {
           <span className="bg-gradient-to-r from-cs-light-red to-cs-white-smooth text-transparent bg-clip-text">
             Season 
           </span>
-          Guide
+           Guide
         </h1>
         <p className="mt-5 text-md text-center text-neutral-500">
           All episodes of each season have been fully aired. Starting from the first season 
