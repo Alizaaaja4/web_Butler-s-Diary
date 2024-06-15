@@ -16,7 +16,7 @@ const Episode = () => {
           enjoy the full story without having to wait any longer.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
         {dataSeason.map((season) => (
           <div key={season.id} className="flex flex-col items-center justify-center">
             <img src={season.image} alt="#" className="h-50% sm:w-50% rounded-lg hover:shadow-cs-dark-purple hover:shadow-lg" />
