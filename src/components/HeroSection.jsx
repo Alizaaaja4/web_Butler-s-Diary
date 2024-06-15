@@ -9,7 +9,7 @@ const HeroSection = () => {
           Black Butler Tales
         </span>
       </h1>
-      <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+      <p className="mt-10 text-md text-center text-neutral-500 max-w-4xl ">
         Immerse yourself in the captivating tales of the anime{" "}
         <span className="hover:text-cs-dark-purple">Kuroshitsuji (Black Butler)</span>.
         Delve into the intricate stories of{" "}
