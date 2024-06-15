@@ -25,13 +25,13 @@ const HeroSection = () => {
       </h1>
       <p className="mt-10 text-md text-center text-neutral-500 max-w-4xl">
         Immerse yourself in the captivating tales of the anime{" "}
-        <span className="text-cs-dark-purple">Kuroshitsuji (Black Butler)</span>.
+        <span className="text-cs-dark-purple hover:text-cs-light-red">Kuroshitsuji (Black Butler)</span>.
         Delve into the intricate stories of{" "}
-        <span className="text-cs-dark-purple">loyalty, mystery, and supernatural</span>{" "}
+        <span className="text-cs-dark-purple hover:text-cs-light-red">loyalty, mystery, and supernatural</span>{" "}
         intrigue that unfold within the corridors of the Phantomhive estate. Explore the
         depths of characters like Ciel Phantomhive and his enigmatic butler, Sebastian
         Michaelis, as they navigate a{" "}
-        <span className="text-cs-dark-purple">world shrouded in darkness and secrets.</span>
+        <span className="text-cs-dark-purple hover:text-cs-light-red">world shrouded in darkness and secrets.</span>
       </p>
 
       <div className="flex mt-10 justify-center">

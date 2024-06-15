@@ -8,7 +8,7 @@ const Episode = () => {
     <div className="mt-10">
       <div>
         <h1 className="text-center text-2xl sm:text-2xl lg:text-4xl">
-          <span className="bg-gradient-to-r from-cs-light-red to-cs-white-smooth text-transparent bg-clip-text">
+          <span className="inline-block mr-2 bg-gradient-to-r from-cs-light-red to-cs-white-smooth text-transparent bg-clip-text">
             Season 
           </span>
            Guide

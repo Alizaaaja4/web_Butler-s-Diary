@@ -115,3 +115,77 @@ export const dataCharacter = [
     },
 
 ]
+
+export const dataStory = [
+    {
+        id: 1,
+        deks: "Kuroshitsuji (Black Butler) is a story set in the Victorian era in England, following the journey of a young nobleman named Ciel Phantomhive. Ciel is the sole heir to the renowned Phantomhive family, possessing immense wealth and overseeing various businesses centered in London. However, beneath his opulence lies a deep-seated tragedy.",
+    },
+    {
+        id: 2,
+        deks: "At a young age, Ciel and his family experienced a series of tragic events. His parents were brutally murdered, and their mansion was engulfed in flames. Ciel himself was captured and tortured by criminals. In his despair, he summons a demon by offering his soul in exchange for revenge against those responsible for his family's death. The demon who appears is Sebastian Michaelis, who becomes Ciel's personal and devoted butler.",
+    },
+    {
+        id:3,
+        deks: "As part of their contract, Sebastian vows to assist Ciel in finding and avenging the perpetrators of his family's murder. Sebastian is not just an ordinary butler; he possesses extraordinary abilities in everything from exquisite cooking to deadly combat. Behind his handsome appearance and classy demeanor, Sebastian is a cruel demon ready to execute Ciel's orders faithfully.",
+    },
+    {
+        id: 4,
+        deks: "With Sebastian's help, Ciel embarks on his dark journey to uphold justice and seek revenge. Along the way, he must confront political intrigue, supernatural threats, and powerful enemies who seek to seize the Phantomhive family's wealth and power. Amidst it all, Ciel leads a double life as a corporate head and also as a 'special consultant' handling hidden matters with his unique expertise.",
+    },
+    {
+        id: 5,
+        deks: "The story of Kuroshitsuji blends elements of mystery, action, and the supernatural while exploring the complex relationship between Ciel and Sebastian, as well as themes of morality regarding power, revenge, and the price of deals with demons. With its dark and intricate plot, Kuroshitsuji has captivated many fans with its deep storyline and richly nuanced characters.",
+    }
+]
+
+export const dataMovie = [
+    {
+        id: 1,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+    {
+        id: 2,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+    {
+        id: 3,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+    {
+        id: 4,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+    {
+        id: 5,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+    {
+        id: 6,
+        title: "Kuroshitsuji I",
+        movie: "",
+        epis: "",
+        tahun: "",
+        watch: "",
+    },
+]
