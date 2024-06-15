@@ -1,4 +1,4 @@
-
+// ini cover seasons
 import season1 from "../assets/img/coverSeasons/coverS1.jpg"
 import season2 from "../assets/img/coverSeasons/coverS2.jpg"
 import season3 from "../assets/img/coverSeasons/coverS3.jpg"
@@ -6,21 +6,38 @@ import season4 from "../assets/img/coverSeasons/coverS4.jpg"
 import seasonMovie from "../assets/img/coverSeasons/coverMovie1.jpg"
 import seasonOVA from "../assets/img/coverSeasons/coverOVA.jpg"
 
-export const navItems = [
+// ini character
+import gambar1 from "../assets/img/karakter/ciel.jpg"
+import gambar2 from "../assets/img/karakter/sebastian.jpg"
+import gambar3 from "../assets/img/karakter/elizabet.jpg"
+import gambar4 from "../assets/img/karakter/ratu.jpg"
+import gambar5 from "../assets/img/karakter/pengawal.jpg"
+import gambar6 from "../assets/img/karakter/india.jpeg"
+import gambar7 from "../assets/img/karakter/badut.jpeg"
+
+export const navLinks = [
     {
-        label: "Home", 
-        href: "#"
+        id: 1,
+        path: "", 
+        text: "Home",
     },
     {
-        label: "Story", 
-        href: "#"},
-    {
-        label: "Seasons", 
-        href: "SeasonPage",
+        id: 2,
+        path: "story", 
+        text: "Story", 
+        
     },
     {
-        label: "Testimonials", 
-        href: "#",
+        id: 3,
+        path: "season", 
+        text: "Seasons", 
+        
+    },
+    {
+        id: 4,
+        path: "testimonials", 
+        text: "Testimonials", 
+       
     },
 ]
 
@@ -65,4 +82,36 @@ export const dataSeason = [
     //     id: 6,
     //     image: seasonOVA,
     // }
+]
+
+export const dataCharacter = [
+    {
+        id: 1,
+        image: gambar1,
+    },
+    {
+        id: 2,
+        image: gambar2,
+    },
+    {
+        id: 3,
+        image: gambar3,
+    },
+    {
+        id: 4,
+        image: gambar4,
+    },
+    {
+        id: 5,
+        image: gambar5,
+    },
+    {
+        id: 6,
+        image: gambar6,
+    },
+    {
+        id: 7,
+        image: gambar7,
+    },
+
 ]

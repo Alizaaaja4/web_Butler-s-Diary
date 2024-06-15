@@ -8,7 +8,6 @@ import FooterComponent from "./components/Footer"
 import HomePage from "./pages/HomePage"
 import SeasonPage from "./pages/SeasonPage"
 import StoryPage from "./pages/StoryPage"
-import FaqPage from "./pages/FaqPage"
 import Testimonial from "./pages/TestimonialPage"
 
 // style
@@ -20,10 +19,9 @@ function App() {
         <div className="max-w-6xl mx-auto pt-20 px-6">
         <Routes>
             <Route path='/' Component={HomePage}></Route>
-            <Route path='/Season' Component={SeasonPage}></Route>
-            <Route path='/Story' Component={StoryPage}></Route>
-            <Route path='/Faq' Component={FaqPage}></Route>
-            <Route path='/Testimonials' Component={Testimonial}></Route>
+            <Route path='/season' Component={SeasonPage}></Route>
+            <Route path='/story' Component={StoryPage}></Route>
+            <Route path='/testimonials' Component={Testimonial}></Route>
         </Routes>
         <FooterComponent/>
         </div>

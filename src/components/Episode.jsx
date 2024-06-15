@@ -1,6 +1,9 @@
 import { dataSeason } from "../constants/index";
+import {useNavigate} from "react-router-dom"
 
 const Episode = () => {
+    let navigate = useNavigate() 
+
   return (
     <div className="mt-10">
       <div>
@@ -27,7 +30,7 @@ const Episode = () => {
           </div>
         ))}
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-7" onClick={() => navigate("/Season")}>
         <button className="border-black py-3 px-5 text-md rounded bg-gradient-to-r from-cs-light-red to-cs-dark-purple text-cs-black hover:shadow-sm hover:shadow-cs-white-smooth font-bold">
             Watch More
         </button>

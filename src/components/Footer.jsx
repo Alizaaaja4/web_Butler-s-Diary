@@ -1,6 +1,8 @@
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className="mt-16 ">
+      nananaan
+    </div>
   )
 }
 
