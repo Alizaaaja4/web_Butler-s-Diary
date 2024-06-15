@@ -49,7 +49,7 @@ function Character() {
       >
         {dataCharacter.map((data)=>{
           return <SwiperSlide key={data.id}>
-            <img className="h-50% sm:w-50% rounded-lg hover:shadow-cs-dark-purple hover:shadow-lg" src={data.image} alt="" />
+            <img className="h-auto sm:h-50% w-full sm:w-30% rounded-lg hover:shadow-cs-dark-purple hover:shadow-lg" src={data.image} alt="" />
           </SwiperSlide>
         })}
       
