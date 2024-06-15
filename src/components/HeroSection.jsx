@@ -1,19 +1,19 @@
-import { useState } from "react";
+// import { useState } from "react";
 import video1 from "../assets/img/video/video1.mp4";
 
 const HeroSection = () => {
-  const [playing, setPlaying] = useState(false);
+  // const [playing, setPlaying] = useState(false);
 
-  const togglePlay = () => {
-    setPlaying(!playing);
-    const video = document.getElementById("heroVideo");
+  // const togglePlay = () => {
+  //   setPlaying(!playing);
+  //   const video = document.getElementById("heroVideo");
 
-    if (playing) {
-      video.pause();
-    } else {
-      video.play();
-    }
-  };
+  //   if (playing) {
+  //     video.pause();
+  //   } else {
+  //     video.play();
+  //   }
+  // };
 
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-4">
@@ -44,9 +44,9 @@ const HeroSection = () => {
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <button onClick={togglePlay} className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
+        {/* <button onClick={togglePlay} className="absolute top-100% left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
           {playing ? "Pause" : "Play"}
-        </button>
+        </button> */}
       </div>
     </div>
   );
