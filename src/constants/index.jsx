@@ -7,10 +7,21 @@ import seasonMovie from "../assets/img/coverSeasons/coverMovie1.jpg"
 import seasonOVA from "../assets/img/coverSeasons/coverOVA.jpg"
 
 export const navItems = [
-    {label: "Home", href: "#"},
-    {label: "Story", href: "#"},
-    {label: "Seasons", href: "#"},
-    {label: "Testimonials", href: "#"},
+    {
+        label: "Home", 
+        href: "#"
+    },
+    {
+        label: "Story", 
+        href: "#"},
+    {
+        label: "Seasons", 
+        href: "SeasonPage",
+    },
+    {
+        label: "Testimonials", 
+        href: "#",
+    },
 ]
 
 export const dataSeason = [

@@ -1,6 +1,8 @@
 function SeasonPage() {
   return (
-    <div>SeasonPage</div>
+    <div className="SeasonPage">SeasonPage
+      <h2>makan</h2>
+    </div>
   )
 }
 

@@ -23,7 +23,7 @@ function App() {
             <Route path='/Season' Component={SeasonPage}></Route>
             <Route path='/Story' Component={StoryPage}></Route>
             <Route path='/Faq' Component={FaqPage}></Route>
-            <Route path='/Testimoni' Component={Testimonial}></Route>
+            <Route path='/Testimonials' Component={Testimonial}></Route>
         </Routes>
         <FooterComponent/>
         </div>

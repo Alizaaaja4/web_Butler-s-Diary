@@ -3,7 +3,7 @@ import Episode from "../components/Episode"
 
 function HomePage() {
   return (
-    <div>
+    <div >
       <HeroSection />
       <Episode />
     </div>
