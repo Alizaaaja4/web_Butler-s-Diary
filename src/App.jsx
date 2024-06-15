@@ -17,6 +17,7 @@ import './App.css'
 function App() {
     return <div>
         <NavbarComponent/>
+        <div className="max-w-6xl mx-auto pt-20 px-6">
         <Routes>
             <Route path='/' Component={HomePage}></Route>
             <Route path='/Season' Component={SeasonPage}></Route>
@@ -25,6 +26,7 @@ function App() {
             <Route path='/Testimoni' Component={Testimonial}></Route>
         </Routes>
         <FooterComponent/>
+        </div>
     </div>
 }
 

@@ -1,6 +1,12 @@
+import HeroSection from "../components/HeroSection"
+import Episode from "../components/Episode"
+
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <HeroSection />
+      <Episode />
+    </div>
   )
 }
 

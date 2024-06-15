@@ -8,7 +8,7 @@ export default {
       },
       colors: {
         'cs-black': '#000000', 
-        'cs-dark-purple': '#3F0071', 
+        'cs-dark-purple': '#750E21', 
         'cs-light-red': '#FF0000', 
         'cs-white-smooth': '#EDEDED', 
         
