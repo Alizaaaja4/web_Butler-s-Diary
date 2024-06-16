@@ -7,4 +7,4 @@ Welcome to **BlackButlerTales** 🏰, a dedicated website for archiving and shar
 - **Comprehensive Story Archive** 📚: Detailed summaries of each episode and movie.
 - **Character Bios** 🧑‍🎤: In-depth information about all the major and minor characters.
 - **Episode Guides** 📆: Easy navigation through different seasons and arcs.
-- **User Contributions** ✍️: Allow fans to contribute their own interpretations and analyses.
+
