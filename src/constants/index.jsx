@@ -16,8 +16,10 @@ import gambar6 from "../assets/img/karakter/india.jpeg"
 import gambar7 from "../assets/img/karakter/badut.jpeg"
 
 // ini trailer movie
-import season1 from "../assets/img/video/season1.mp4";
-import video1 from "../assets/img/video/video1.mp4";
+import season5 from "../assets/img/video/season1.mp4";
+import season7 from "../assets/img/video/season2.mp4";
+import season6 from "../assets/img/video/season3.mp4";
+import season8 from "../assets/img/video/season4.mp4";
 
 export const navLinks = [
     {
@@ -139,25 +141,25 @@ export const dataMovie = [
     {
         id: 1,
         title: "Kuroshitsuji I",
-        movie: season1,
+        movie: season5,
         watch: "https://otakudesu.cloud/anime/kurotsuji-subtitle-indonesia/",
     },
     {
         id: 2,
         title: "Kuroshitsuji II",
-        movie: video1,
+        movie: season7,
         watch: "https://otakudesu.cloud/anime/kurotsuji-season-2-sub-indo/",
     },
     {
         id: 3,
         title: "Kuroshisuji Movie: Book of the Atlantic",
-        movie: video1,
+        movie: season6,
         watch: "https://otakudesu.cloud/anime/krsj-movie-subtitle-indonesia/",
     },
     {
         id: 4,
         title: "Kuroshitsuji: Kishuku Gakkou-hen",
-        movie: video1,
+        movie: season8,
         watch: "https://otakudesu.cloud/anime/kurositsuji-gakkou-sub-indo/",
     },
 ]
