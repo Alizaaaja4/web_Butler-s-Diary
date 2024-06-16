@@ -16,6 +16,7 @@ import gambar6 from "../assets/img/karakter/india.jpeg"
 import gambar7 from "../assets/img/karakter/badut.jpeg"
 
 // ini trailer movie
+import season1 from "../assets/img/video/season1.mp4";
 import video1 from "../assets/img/video/video1.mp4";
 
 export const navLinks = [
@@ -38,8 +39,8 @@ export const navLinks = [
     },
     {
         id: 4,
-        path: "testimonials", 
-        text: "Testimonials", 
+        path: "news", 
+        text: "News", 
        
     },
 ]
@@ -77,14 +78,6 @@ export const dataSeason = [
         tahun: "2010",
         navigate_url: "",
     },
-    // {
-    //     id: 5,
-    //     image: season1,
-    // },
-    // {
-    //     id: 6,
-    //     image: seasonOVA,
-    // }
 ]
 
 export const dataCharacter = [
@@ -146,7 +139,7 @@ export const dataMovie = [
     {
         id: 1,
         title: "Kuroshitsuji I",
-        movie: video1,
+        movie: season1,
         watch: "https://otakudesu.cloud/anime/kurotsuji-subtitle-indonesia/",
     },
     {
@@ -167,4 +160,31 @@ export const dataMovie = [
         movie: video1,
         watch: "https://otakudesu.cloud/anime/kurositsuji-gakkou-sub-indo/",
     },
+]
+
+export const dataNews = [
+    {
+        id : 1,
+        title: "Black Butler: Who Is Undertaker? Character Explored",
+        deks: "This article contains spoilers from the Black Butler anime The Black Butler anime is filled with cool and sophisticated ...",
+        navigate_url: "https://www.msn.com/en-in/entertainment/hollywood/black-butler-who-is-undertaker-character-explored/ar-BB1ojt7D?ocid=BingNewsSearch",
+    },
+    {
+        id: 2,
+        title: "Kuroshitsuji The Most Beautiful Death in the World",
+        deks: "Can death visit a Grim Reaper Why cant the souls be collected Alongside the sad and painful investigation is a Noir Fantasy in which the strings are pulled by the Black ...",
+        navigate_url: "https://www.moviefone.com/movie/kuroshitsuji-the-most-beautiful-death-in-the-world/pp95PGmxzpi9VEGNkbdp77/main/",
+    },
+    {
+        id: 3,
+        title: "Black Butler -Public School Arc- (Season 4) Episode 10: How Will Ciel Tackle the Undertaker?",
+        deks: "Episode 10, “His Butler, Assenting,” will follow the events of the previous episode. Now that the truth behind Derrick Arden ...",
+        navigate_url: "https://www.yahoo.com/entertainment/black-butler-public-school-arc-104329615.html",
+    },
+    {
+        id: 4,
+        title: "Black Butler Interview: Ciel & Sebastian Voice Actors Talk Public School Arc",
+        deks: "ComingSoon Editor-in-Chief Tyler Treese spoke to Black Butler English dub stars Brina Palencia (Ciel Phantomhive) and J.....",
+        navigate_url: "https://www.yahoo.com/entertainment/black-butler-interview-ciel-sebastian-190000162.html",
+    }
 ]

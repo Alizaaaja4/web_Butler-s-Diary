@@ -8,7 +8,7 @@ import FooterComponent from "./components/Footer"
 import HomePage from "./pages/HomePage"
 import SeasonPage from "./pages/SeasonPage"
 import StoryPage from "./pages/StoryPage"
-import Testimonial from "./pages/TestimonialPage"
+import News from "./pages/TestimonialPage"
 
 // style
 import './App.css'
@@ -21,7 +21,7 @@ function App() {
             <Route path='/' Component={HomePage}></Route>
             <Route path='/season' Component={SeasonPage}></Route>
             <Route path='/story' Component={StoryPage}></Route>
-            <Route path='/testimonials' Component={Testimonial}></Route>
+            <Route path='/news' Component={News}></Route>
         </Routes>
         <FooterComponent/>
         </div>
