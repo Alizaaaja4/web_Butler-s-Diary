@@ -1,10 +1,10 @@
 // ini cover seasons
-import season1 from "../assets/img/coverSeasons/coverS1.jpg"
+// import season1 from "../assets/img/coverSeasons/coverS1.jpg"
 import season2 from "../assets/img/coverSeasons/coverS2.jpg"
 import season3 from "../assets/img/coverSeasons/coverS3.jpg"
 import season4 from "../assets/img/coverSeasons/coverS4.jpg"
 import seasonMovie from "../assets/img/coverSeasons/coverMovie1.jpg"
-import seasonOVA from "../assets/img/coverSeasons/coverOVA.jpg"
+// import seasonOVA from "../assets/img/coverSeasons/coverOVA.jpg"
 
 // ini character
 import gambar1 from "../assets/img/karakter/ciel.jpg"
@@ -14,6 +14,9 @@ import gambar4 from "../assets/img/karakter/ratu.jpg"
 import gambar5 from "../assets/img/karakter/pengawal.jpg"
 import gambar6 from "../assets/img/karakter/india.jpeg"
 import gambar7 from "../assets/img/karakter/badut.jpeg"
+
+// ini trailer movie
+import video1 from "../assets/img/video/video1.mp4";
 
 export const navLinks = [
     {
@@ -143,49 +146,25 @@ export const dataMovie = [
     {
         id: 1,
         title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
+        movie: video1,
+        watch: "https://otakudesu.cloud/anime/kurotsuji-subtitle-indonesia/",
     },
     {
         id: 2,
-        title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
+        title: "Kuroshitsuji II",
+        movie: video1,
+        watch: "https://otakudesu.cloud/anime/kurotsuji-season-2-sub-indo/",
     },
     {
         id: 3,
-        title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
+        title: "Kuroshisuji Movie: Book of the Atlantic",
+        movie: video1,
+        watch: "https://otakudesu.cloud/anime/krsj-movie-subtitle-indonesia/",
     },
     {
         id: 4,
-        title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
-    },
-    {
-        id: 5,
-        title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
-    },
-    {
-        id: 6,
-        title: "Kuroshitsuji I",
-        movie: "",
-        epis: "",
-        tahun: "",
-        watch: "",
+        title: "Kuroshitsuji: Kishuku Gakkou-hen",
+        movie: video1,
+        watch: "https://otakudesu.cloud/anime/kurositsuji-gakkou-sub-indo/",
     },
 ]

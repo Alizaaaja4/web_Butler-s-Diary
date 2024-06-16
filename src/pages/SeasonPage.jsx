@@ -11,18 +11,37 @@ function SeasonPage() {
           Movie  
           </span>
       </h1>
-      <div className="grid grid-cols-3 items-center justify-center">
-      {dataMovie.map((data)=> (
-        <div key={data.id}>
-          <video src="">
-            aaaaaaaaa
-          </video>
-          <h3 className="tex-md mb-6 text-neutral-500">
-            {data.title}
-          </h3>
-        </div>
+      <p className="text-center tex-md mb-10 text-neutral-500">
+      Below are trailers from several seasons of the Kuroshitsuji series, showcasing glimpses of the dark and 
+      intriguing journey of Ciel Phantomhive and his loyal butler, Sebastian Michaelis. Watch clips from various 
+      episodes filled with captivating mystery, action, and supernatural elements
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4">
+        {dataMovie.map((data) => (
+           <div key={data.id} className="border rounded-md items-center justify-center text-center bg-black shadow-cs-dark-purple shadow-md mb-4">
+            <video
+              id="heroVideo"
+              className="rounded-lg border border-cs-dark-purple shadow-cs-dark-purple mt-4 p-4"
+              controls
+              preload="metadata"
+            >
+            <source src={data.movie} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <h3 className="mt-4 tex-md mb-6 text-neutral-500 text-sm lg:text-lg md:text-md sm:text-sm">
+              {data.title}
+            </h3>
+            <div className="mb-4">
+              <a href={data.watch} target="_blank" rel="noopener noreferrer">
+                <button className="text-sm lg:text-md md:text-md sm:text-sm bg-cs-dark-purple text-white py-2 px-4 rounded hover:bg-red-900">
+                  Streaming
+                </button>
+              </a>
+            </div>
+            </div>
       ))}
-      </div>
+    </div>
+
     </div>
   )
 }
